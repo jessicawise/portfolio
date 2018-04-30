@@ -2,14 +2,17 @@
   "name": "vue-git-pages",
   "version": "0.1.0",
   "private": true,
+  "wst": "/dist/",
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build; cp -r dist/* ./",
+    "build": "vue-cli-service build",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.16",
+    "vue-gh-pages": "^1.16.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
