@@ -1,0 +1,23 @@
+#no-padding {
+  padding: 0px;
+}
+
+.parallax { 
+  background-image: url("/img/Logo1.svg");
+  background-color: #611b52;
+  height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+.glyphicon-chevron-down {
+  top: 88% !important;
+  color: white;
+  font-size: 40px;
+}
+
+#nav {
+  font-size: 15px;
+}
