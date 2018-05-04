@@ -53,3 +53,34 @@ h2 {
   left: 65px;
   padding-top: 20px;
 }
+
+#portrait {
+  width: 45%;
+  border-radius: 15%;
+}
+
+#linkedin {
+  width: 5%;
+}
+
+#resume {
+  width: 7%;
+  margin-top: -1px;
+}
+
+.glyphicon-envelope {
+  top: 15px !important;
+  font-size: 35px;
+  color: black;
+}
+
+.glyphicon-earphone {
+  top: 10px !important;
+  padding-left: 5px;
+  font-size: 30px;
+  color: black;
+}
+
+#about {
+  padding-left: 5px;
+}
