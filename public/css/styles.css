@@ -57,6 +57,8 @@ h2 {
 #portrait {
   width: 45%;
   border-radius: 15%;
+  float: left;
+  padding-right: 15px;
 }
 
 #linkedin {
@@ -81,6 +83,24 @@ h2 {
   color: black;
 }
 
+.align-left {
+  text-align: left;
+}
+
 #about {
-  padding-left: 5px;
+  padding-top: 20px;
+}
+
+.image-size {
+  width: 80%;
+  padding-bottom: 5px;
+}
+
+.invision-size {
+  width: 50%;
+}
+
+.project-view {
+  width: 20%;
+  padding-right: 5px;
 }

@@ -5,7 +5,7 @@
     <div class="container-fluid">
     <div class="row">
       <router-link to='/works/streetsmarts'>
-        <div class="col-md-3 col-md-offset-3"><img class="border-radius grow" src="/img/StreetSmarts.png" /></div>
+        <div class="col-md-3 col-md-offset-3"><img class="border-radius" src="/img/StreetSmarts.png" /></div>
       </router-link>
       <router-link to='/works/venture'>
         <div class="col-md-3"><img class="border-radius" src="/img/ventureng.png" /></div>
