@@ -1,16 +1,15 @@
 <template>
-  <div id="app">
-    <div class="container-fluid">
-      <div class="row">
-        <div id="no-padding" class="col-md-12">
-          <div class="parallax">
-            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+  <div id="app" class="full-height">
+    <div class="container-fluid full-height">
+      <div class="row full-height">
+        <div id="no-padding" class="col-md-12 full-height">
+          <div class="parallax full-height">
+            <span v-if='showDown' :class="downClass" class="glyphicon glyphicon-chevron-down animated infinite bounce" aria-hidden="true"></span>
             </div>
           </div>
         </div>
       </div>
       
-
        <div class="container-fluid">
         <div class="row">
           <div id="no-padding" class="col-md-12">
@@ -22,19 +21,50 @@
         </div>
       </div>
 
-  
     <router-view/>
 
-    <div class="container-fluid">
+    <div id="footer" class="container-fluid">
         <div class="row">
           <div id="no-padding" class="col-md-12">
-            Footer
+            © Jessica Wise 2018
           </div>
         </div>
       </div>
   </div>
 </template>
 
+<script>
+
+const MIN_SCROLL_HEIGHT = 100;
+
+export default {
+  name: 'app',
+  created() {
+    let lastScrollPosition = 0;
+    let firstLoad = false;
+    window.onscroll = () => {
+      if (window.scrollY > MIN_SCROLL_HEIGHT && !firstLoad) {
+        this.showDown = false;
+      }
+
+      let newScrollPosition = window.scrollY;
+      if (newScrollPosition > lastScrollPosition){
+        this.downClass = 'disappear';
+      }
+      lastScrollPosition = newScrollPosition;
+
+      firstLoad = true;
+    }
+
+  },
+  data() {
+    return {
+      downClass: null,
+      showDown: true
+    }
+  }
+}
+</script>
 
 
 <style lang="scss">

@@ -1,23 +1,55 @@
+body, html {
+  height: 100%;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.full-height {
+  height: 100%;
+}
+
 #no-padding {
   padding: 0px;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .parallax { 
   background-image: url("/img/Logo1.svg");
   background-color: #611b52;
-  height: 700px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-size: contain;
 }
 
 .glyphicon-chevron-down {
-  top: 88% !important;
+  top: 92% !important;
   color: white;
   font-size: 40px;
+
+  transition: opacity .5s ease-out;
+}
+
+.disappear {
+  opacity: 0;
+}
+
+.border-radius {
+  border-radius: 10px;
 }
 
 #nav {
   font-size: 15px;
+}
+
+#reemploy {
+  left: 65px;
+  padding-top: 20px;
 }
