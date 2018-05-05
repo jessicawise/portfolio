@@ -90,3 +90,13 @@
     </div>
   </div>
 </template>
+
+<script>
+import ScrollToNav from "@/mixins/ScrollToNav.vue"
+export default {
+  name: "venture",
+  mixins: [
+    ScrollToNav
+  ]
+}
+</script>
