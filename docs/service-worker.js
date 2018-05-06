@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.64408d29c2c9bb4fb16200a1cb4dc08c.js"
+  "/precache-manifest.85c855773169808b693bcac01642c71b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-git-pages"});
