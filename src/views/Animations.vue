@@ -25,10 +25,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-md-6 col-md-offset-3 align-left">
                     <iframe src="https://player.vimeo.com/video/41380169" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-md-6 col-md-offset-3 align-left">
                     <iframe src="https://player.vimeo.com/video/57906669" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>

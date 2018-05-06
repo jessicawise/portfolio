@@ -4,29 +4,27 @@
 
     <div class="container-fluid">
     <div class="row">
-      <router-link to='/works/streetsmarts'>
-        <div class="col-md-3 col-md-offset-3"><img class="border-radius" src="/img/StreetSmarts.png" /></div>
-      </router-link>
-      <router-link to='/works/venture'>
-        <div class="col-md-3"><img class="border-radius" src="/img/ventureng.png" /></div>
-      </router-link>
+      <div class="col-md-3 col-md-offset-3">
+        <router-link to='/works/streetsmarts'><img class="border-radius" src="/img/StreetSmarts.png" /></router-link>
+      </div>
+      <div class="col-md-3">
+        <router-link to='/works/venture'><img class="border-radius" src="/img/ventureng.png" /></router-link>
+      </div>
     </div>
     <div class="row">
-      <router-link to='/works/reemploy'>
-        <div class="col-md-3 col-md-offset-4" id="reemploy"><img class="border-radius" src="/img/reemploy.png" /></div>
-      </router-link>
+      <div class="col-md-3 col-md-offset-4" id="reemploy"><router-link to='/works/reemploy'><img class="border-radius" src="/img/reemploy.png" /></router-link>
+      </div>
     </div>
   </div>
 
   <h2><strong>For Fun</strong></h2>
   <div class="container-fluid">
     <div class="row">
-      <router-link to='/fun/animations'>
-        <div class="col-md-3 col-md-offset-3"><img class="border-radius" src="/img/animations.png" /></div>
-      </router-link>
-      <router-link to='/fun/drawings'>
-        <div class="col-md-3"><img class="border-radius" src="/img/drawings.png" /></div>
-      </router-link>
+      <div class="col-md-3 col-md-offset-3"><router-link to='/fun/animations'><img class="border-radius" src="/img/animations.png" /></router-link>
+      </div>
+        <div class="col-md-3">
+          <router-link to='/fun/drawings'><img class="border-radius" src="/img/drawings.png" /></router-link>
+      </div>
     </div>
   </div>
   </div>
