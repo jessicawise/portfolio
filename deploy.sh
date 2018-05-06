@@ -11,7 +11,7 @@ for f in $FILES; do
   echo $f
   sed -i '' 's/\/js/portfolio\/js/g' $f
   sed -i '' 's/\/css/portfolio\/css/g' $f
-  sed -i '' 's/\/img/portfolio\/img/g' $f
+  sed -i '' 's/\/img/img/g' $f
 done
 
 FILES=**/*.css
