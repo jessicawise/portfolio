@@ -56,8 +56,12 @@ h2 {
 }
 
 #reemploy {
-  left: 65px;
+  left: 5%;
   padding-top: 20px;
+}
+
+.home-width {
+  width: 100%;
 }
 
 
