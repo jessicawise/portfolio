@@ -19,6 +19,6 @@ for f in $FILES; do
   echo $f
   sed -i '' 's/\/js/js/g' $f
   sed -i '' 's/\/css/css/g' $f
-  sed -i '' 's/\/img/img/g' $f
+  sed -i '' 's/\/img/..\/img/g' $f
 done
 echo "Done!"
