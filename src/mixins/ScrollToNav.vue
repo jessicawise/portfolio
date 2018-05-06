@@ -1,7 +1,7 @@
 <script>
 export default {
   name: "scroll_to_nav",
-  created(){
+  mounted(){
     document.getElementById("nav").scrollIntoView();
   }
 }

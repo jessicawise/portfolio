@@ -1,3 +1,5 @@
+/* Overall Styles */
+
 body, html {
   height: 100%;
 }
@@ -6,6 +8,8 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+/* App Styles */
 
 .full-height {
   height: 100%;
@@ -41,18 +45,23 @@ h2 {
   opacity: 0;
 }
 
-.border-radius {
-  border-radius: 10px;
-}
-
 #nav {
   font-size: 15px;
+}
+
+/* Home Styles */
+
+.border-radius {
+  border-radius: 10px;
 }
 
 #reemploy {
   left: 65px;
   padding-top: 20px;
 }
+
+
+/* About Styles */
 
 #portrait {
   width: 45%;
@@ -83,6 +92,8 @@ h2 {
   color: black;
 }
 
+/* Design Documentation Styles */
+
 .align-left {
   text-align: left;
 }
@@ -94,6 +105,12 @@ h2 {
 .image-size {
   width: 80%;
   padding-bottom: 5px;
+}
+
+.mobile-size {
+  width: 40%;
+  padding-bottom: 5px;
+  padding-right: 5px;
 }
 
 .invision-size {
@@ -111,4 +128,28 @@ h2 {
 
 #affinity {
   width: 100%;
+}
+
+/* Animation Styles */
+
+.Logo {
+  width: 420px;
+  height: 324px;
+  background: url('/img/LogoAnimation_Spritesheet12x12.png');
+  margin-top: 1%;
+  margin-left: 1%
+}
+
+/* Drawing Styles */
+
+.drawing-size {
+  width: 40%;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.digital-size {
+  width: 25%;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }

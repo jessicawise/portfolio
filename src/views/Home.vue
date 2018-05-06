@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h2>Works</h2>
+    <h2><strong>Works</strong></h2>
 
     <div class="container-fluid">
     <div class="row">
@@ -18,7 +18,7 @@
     </div>
   </div>
 
-  <h2>For Fun</h2>
+  <h2><strong>For Fun</strong></h2>
   <div class="container-fluid">
     <div class="row">
       <router-link to='/fun/animations'>

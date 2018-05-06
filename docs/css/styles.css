@@ -1,0 +1,155 @@
+/* Overall Styles */
+
+body, html {
+  height: 100%;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* App Styles */
+
+.full-height {
+  height: 100%;
+}
+
+#no-padding {
+  padding: 0px;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.parallax { 
+  background-image: url("/img/Logo1.svg");
+  background-color: #611b52;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.glyphicon-chevron-down {
+  top: 92% !important;
+  color: white;
+  font-size: 40px;
+
+  transition: opacity .5s ease-out;
+}
+
+.disappear {
+  opacity: 0;
+}
+
+#nav {
+  font-size: 15px;
+}
+
+/* Home Styles */
+
+.border-radius {
+  border-radius: 10px;
+}
+
+#reemploy {
+  left: 65px;
+  padding-top: 20px;
+}
+
+
+/* About Styles */
+
+#portrait {
+  width: 45%;
+  border-radius: 15%;
+  float: left;
+  padding-right: 15px;
+}
+
+#linkedin {
+  width: 5%;
+}
+
+#resume {
+  width: 7%;
+  margin-top: -1px;
+}
+
+.glyphicon-envelope {
+  top: 15px !important;
+  font-size: 35px;
+  color: black;
+}
+
+.glyphicon-earphone {
+  top: 10px !important;
+  padding-left: 5px;
+  font-size: 30px;
+  color: black;
+}
+
+/* Design Documentation Styles */
+
+.align-left {
+  text-align: left;
+}
+
+#about {
+  padding-top: 20px;
+}
+
+.image-size {
+  width: 80%;
+  padding-bottom: 5px;
+}
+
+.mobile-size {
+  width: 40%;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.invision-size {
+  width: 50%;
+}
+
+.project-view {
+  width: 20%;
+  padding-right: 5px;
+}
+
+#analysis {
+  width: 130%;
+}
+
+#affinity {
+  width: 100%;
+}
+
+/* Animation Styles */
+
+.Logo {
+  width: 420px;
+  height: 324px;
+  background: url('/img/LogoAnimation_Spritesheet12x12.png');
+  margin-top: 1%;
+  margin-left: 1%
+}
+
+/* Drawing Styles */
+
+.drawing-size {
+  width: 40%;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.digital-size {
+  width: 25%;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
