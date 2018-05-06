@@ -9,16 +9,16 @@ cd docs
 FILES=**/*.js
 for f in $FILES; do
   echo $f
-  sed -i '' 's/\/js/js/g' $f
-  sed -i '' 's/\/css/css/g' $f
-  sed -i '' 's/\/img/img/g' $f
+  sed -i '' 's/\/js/portfolioRedesign\/js/g' $f
+  sed -i '' 's/\/css/portfolioRedesign\/css/g' $f
+  sed -i '' 's/\/img/portfolioRedesign\/img/g' $f
 done
 
 FILES=**/*.css
 for f in $FILES; do
   echo $f
-  sed -i '' 's/\/js/js/g' $f
-  sed -i '' 's/\/css/css/g' $f
+  sed -i '' 's/\/js/portfolioRedesign\/js/g' $f
+  sed -i '' 's/\/css/portfolioRedesign\/css/g' $f
   sed -i '' 's/\/img/..\/img/g' $f
 done
 echo "Done!"
