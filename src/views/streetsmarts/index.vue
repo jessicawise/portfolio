@@ -14,12 +14,12 @@
           </div>
 
           <div class='project'>
-            <router-link to='/works/streetsmarts/fleet-tracker' class='project-box' style="background: url('/img/StreetSmartsProject2Image.png')"></router-link>
+            <router-link to='/works/streetsmarts/tolls' class='project-box' style="background: url('/img/StreetSmartsProject2Image.png')"></router-link>
             <span>Tolls Page Redesign</span>
           </div>
 
           <div class='project'>
-            <router-link to='/works/streetsmarts/fleet-tracker' class='project-box' style="background: url('/img/StreetSmartsProject3Image.png')"></router-link>
+            <router-link to='/works/streetsmarts/messaging' class='project-box' style="background: url('/img/StreetSmartsProject3Image.png')"></router-link>
             <span>Automated Messaging</span>
           </div>
         </div>
