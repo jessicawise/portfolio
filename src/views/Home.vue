@@ -1,34 +1,20 @@
 <template>
   <div class="home">
-    <h2><strong>Works</strong></h2>
 
-    <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 col-md-offset-3 col-xs-6">
-        <router-link to='/works/streetsmarts'><img class="border-radius" src="/img/StreetSmarts.png" width="100%"/></router-link>
-      </div>
-      <div class="col-md-3 col-xs-6">
-        <router-link to='/works/venture'><img class="border-radius" src="/img/ventureng.png" width="100%"/></router-link>
-      </div>
+    <div class="banner">
+      <router-link to='/works/fidelity'><img class="border-radius" src="/img/FidelityIcon.svg" width="100%"/></router-link>
     </div>
-    <div class="row">
-      <div class="col-md-3 col-md-offset-4 col-xs-6 col-xs-offset-2" id="reemploy"><router-link to='/works/reemploy'><img class="border-radius" src="/img/reemploy.png" width="100%"/></router-link>
-      </div>
+
+    <div class="banner">
+      <router-link to='/works/streetsmarts'><img class="border-radius" src="/img/StreetSmartsIcon.svg" width="100%"/></router-link>
     </div>
+
+     <div class="banner">
+      <router-link to='/works/venture'><img class="border-radius" src="/img/VentureIcon.svg" width="100%"/></router-link>
+    </div>
+
   </div>
 
-  <h2><strong>For Fun</strong></h2>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 col-md-offset-3 col-xs-6"><router-link to='/fun/animations'><img class="border-radius" src="/img/animations.png" width="100%"/></router-link>
-      </div>
-        <div class="col-md-3 col-xs-6">
-          <router-link to='/fun/drawings'><img class="border-radius" src="/img/drawings.png" width="100%"/></router-link>
-      </div>
-    </div>
-  </div>
-  </div>
-  
 </template>
 
 <script>
@@ -38,3 +24,16 @@ export default {
   name: 'home'
 }
 </script>
+
+<style lang="scss">
+  .home {
+    text-align: center;
+    padding: 30px;
+
+    .banner {
+      max-width: 400px;
+      display: inline-block;
+    }
+  }
+</style>
+

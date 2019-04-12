@@ -45,6 +45,7 @@
             ScrollToNav
         ],
         mounted() {
+            var $ = $
             $(".Logo").animateSprite({
                 fps: 24,
                 animations: {

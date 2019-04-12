@@ -9,12 +9,13 @@
           </div>
         </div>
       </div>
-      
+
        <div class="container-fluid">
         <div class="row">
           <div id="no-padding" class="col-md-12">
             <div id="nav">
-              <router-link to="/">Home</router-link> |
+              <router-link to="/">Works</router-link> |
+              <router-link to="/fun">For Fun</router-link> |
               <router-link to="/about">About</router-link>
             </div>
           </div>
