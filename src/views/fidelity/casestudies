@@ -39,35 +39,50 @@
                     <h3><strong>Redesign Round 1</strong></h3>
                     [Redesign V1 Images]
 
-                    <p></p>
+                    <p>With the first round of designs I tried a couple different things:
+                    <ul>
+                    <li>Keep some elements the same as they were in the previous design but make them more organized. Similar to the rehash but I put things that weren't previously together in the same spots if they seemed to be part of the same information block.</li>
+                    <li>Use scrolling but use it in a way that it didn't seem tedious to scroll. This is what brought about the jump links in the first design.</li>
+                    <li>Moving unimportant information to a side panel. This would hopefully clean up much needed space for other more important components.</li>
+                    <li>Unhiding steps of the userflow that were previous only accessable behind links or would open up in other windows. The idea was that if the admin needed to perform this step then we shouldn't make it hard on them to actually do it.</li>
+                    </ul></p>
                     
                     <h2><strong>User Feedback</strong></h2>
                     
-                    <p></p>
+                    <p>Users liked the second design with the full page side bar. They agreed that putting unimportant information in the side bar would be great. If they ended up needing it then they knew where to get it and how to get rid of it when they didn't need it anymore.</p>
+                    <p>Pulling out the hidden user flow steps was a big hit as well. However, there were things I thought unimportant and had shoved in the side bar that the admins would need access too pretty frequently. Those would need to be pulled out and added to the main view but at the same time this would use up space that just wasn't there.</p>
 
                   
                     <h3><strong>Redesign Round 2</strong></h3>
                     [Redesign V2 Images]
 
-                    <p></p>
+                    <p>It turned out there was a bit more space I was able to eek out after scrunching some data together. My only worry was that some of the data was so close together that it might not be readable. There were also some issues with the old styling of buttons that caused them to bump up against other data points because they just weren't meant to be used in smaller spaces.</p>
+                    <p>The other issue was adding a candidate. Normally, that process was done in a separate window and I was now trying to add it in the same few. The users wanted to limit having to have multiple tabs or windows open if possible. I took a shot at it and I don't think it looked great. Not only that but development let me know there was no way they'd be able to program a card that looked like a square stacked on a rectangle without making it obvious that they weren't connected.</p>
                     
                     <h2><strong>User Feedback</strong><h2>
                     
-                    <p></p>
+                    <p>Even though I was worried about the data points being too close together, the users loved it. What I learned is that they used to do a lot of disclosures in Excel spreadsheets and they were used to seeing data closer together. They also had no problems with the weird square rectangle card and just appreciated not having to open a new window to add a candidate.</p>
 
                     <h3><strong>Final Designs</strong></h3>
                     [Redesign Final Images Again]
 
-                    <p></p>
+                    <p>Not a whole lot changed at this point. There was some tightening up of colors as the bright green didn't mesh well with the white text if you stared at it too long. The button issue was solved mostly by switching to the ghost button styling. It also matched our new card stylings better than the old gray gradient buttons.</p>
+                    <p>A lot of getting to the final designs was working with the development team and making sure they could make the side panel and the card as they were designed. We came to the agreement that we could do inline editing to prevent having to make oddly shaped cards or opening the flow in another window. We assumed that with the candidacy we would be able to edit the necessary items and that would class the candidate as verified. There was still further research needed to confirm this. We did also learn that the adding a candidate would never happen from this admin screen and we were able to remove that functionality. This also helped prevent weird card shapes.</p>
+                    <p>The last thing that changed was that we made it so the admin could make their disposition decision at any point during scrolling by using a sticky footer. This wasn't something that cmae up in our user feedback but it was something they ended up liking more than we expected.</p>
                     
 
                     <h3><strong>What I Learned</strong></h3>
 
-                    <p>Bullet Points</p>
+                    <p><ul><li>Always get users invovled. Before I joined the project was run on assumptions and what the developers thought was most important.</li>
+                    <li>Work with the development team. There was a lot of "no you can't do that" or "we don't have the technology for that" at the start but it was possible to make compromises when I was able to help find alternative solutions or new ways to use the antique software.</li>
+                    <li>Compliance disclosures are not just a straight happy path. As much as I charted out the happy path, there would just be too many instances where the happy path would never be achieveable.</li>
+                    </ul></p>
                     
                     <h3><strong>What I Would Change</strong></h3>
                     
-                    <p>Bullet Points</p>
+                    <p><ul><li>A longer time frame in which to complete the redesign. I was able to get out a MVP for the two weeks but there were many points of the flow that we were missing and still needed to work out at the end of the two weeks.</li>
+                    <li>User feedback sooner. A lot of time could've been saved in the process of a redesign if we had done user research earlier.</li>
+                    </ul></p>
                     
                     
                     
