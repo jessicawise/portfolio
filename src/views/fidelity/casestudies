@@ -31,8 +31,6 @@
                     
                     <p>So the first step was a rehash of the current design. Could the information be laid out in a way in the current design that it would help the admins out better? I also had other requirements from the business to follow as well: limit page scrolling and don't cut out any data points.</p>
                     
-                    <h2><strong>User Feedback</strong></h2>
-                    
                     <p>The rehashed designs were shown to the admin users and they were not happy. They had been hoping for a completely new design. All the rehash did was move data points around. Sure, the organization was better but the workflow the admins had to go through was still a mess and no easier than if they were doing it with the previous design.</p>
 
           
@@ -47,8 +45,6 @@
                     <li>Unhiding steps of the userflow that were previous only accessable behind links or would open up in other windows. The idea was that if the admin needed to perform this step then we shouldn't make it hard on them to actually do it.</li>
                     </ul></p>
                     
-                    <h2><strong>User Feedback</strong></h2>
-                    
                     <p>Users liked the second design with the full page side bar. They agreed that putting unimportant information in the side bar would be great. If they ended up needing it then they knew where to get it and how to get rid of it when they didn't need it anymore.</p>
                     <p>Pulling out the hidden user flow steps was a big hit as well. However, there were things I thought unimportant and had shoved in the side bar that the admins would need access too pretty frequently. Those would need to be pulled out and added to the main view but at the same time this would use up space that just wasn't there.</p>
 
@@ -58,8 +54,6 @@
 
                     <p>It turned out there was a bit more space I was able to eek out after scrunching some data together. My only worry was that some of the data was so close together that it might not be readable. There were also some issues with the old styling of buttons that caused them to bump up against other data points because they just weren't meant to be used in smaller spaces.</p>
                     <p>The other issue was adding a candidate. Normally, that process was done in a separate window and I was now trying to add it in the same few. The users wanted to limit having to have multiple tabs or windows open if possible. I took a shot at it and I don't think it looked great. Not only that but development let me know there was no way they'd be able to program a card that looked like a square stacked on a rectangle without making it obvious that they weren't connected.</p>
-                    
-                    <h2><strong>User Feedback</strong><h2>
                     
                     <p>Even though I was worried about the data points being too close together, the users loved it. What I learned is that they used to do a lot of disclosures in Excel spreadsheets and they were used to seeing data closer together. They also had no problems with the weird square rectangle card and just appreciated not having to open a new window to add a candidate.</p>
 
@@ -119,8 +113,6 @@
                     
                     <p>The 17a6 project kicked off in the middle of the redesign project so there was a huge push to use the new components created in the redesign. The idea here was similar to the redesign in that the business wanted to avoid scrolling but they wanted to see nearly all data points needed for an account. At this point, those data points weren't completely decided as of yet so I had to wing it on figuring out what information was most important.</p>
                     
-                    <h2><strong>User Feedback</strong></h2>
-                    
                     <p>The users wanted to stray away from the use of tables as the current tables they had were old technology and could not function in the way they wanted. However, the development team stated that they could not use any of the designs with card components due to technology limitations. In the end the users agreed to the use of a table if and only if it could be designed and developed as close to their needs as possible.</p>
 
           
@@ -130,9 +122,6 @@
                     <p>Those needs weren't entirely easy to make. The requirements changed almost every meeting. One of the core requirements were that the users needed a way to indicate that they had "okay'd" a line item in an account. The reason for this was because sometimes an account could have hundreds upon hundreds of line items and because of that a user may not finish reviewing an account that day. When they came back to the account they needed to know that they were already party way done and didn't have to start over.</p>
                     <p>With these designs I provided a couple different ways to use the statusing in order to find accounts that hadn't been reviewed yet. A search for the table was introduced so that any accounts outside of the search parameters would not be shown on the table. Another way to allow the user to check over statuses quickly was allowing the ability to click on the headers and change the ordering of the table. This way, say for example, the user wanted to only have their not completed accounts at the top, they could click the header and change the ordering.</p>
                     <p>The only other two core requirements were the ability to comment on a line item and the ability to edit a line item in line. A lot of 17a6 was manual work and the users had to correct line items if they did not match up to the statements that were provided. At this point the requirement of editing inline had not been completely solidified. It still needed to be decided if the user could edit the whole line item or just part of it.</p>
-                    
-                    
-                    <h2><strong>User Feedback</strong></h2>
                     
                     <p>Users prefered the third design. The only issue with it was that there were a lot of icons at the end of a row. We needed to determine a way to keep the functionality of the icons but remove them from the end of the row.</p>
 
