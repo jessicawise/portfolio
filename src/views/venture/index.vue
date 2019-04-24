@@ -3,7 +3,21 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 align-left">
-                    <h3><strong>What is Venture.ng?</strong></h3>
+                  [Final Design Images]
+
+                    <h3><strong>The Basics</strong></h3>
+
+                    <strong>Role</strong>
+                    Researcher, UX Designer and Developer
+                    
+                    <strong>Tools</strong>
+                    Sketch and Invision
+                    
+                    <strong>Time Constraint</strong>
+            
+
+                    
+                     <h3><strong>The Overview</strong></h3>
 
                     <p>The idea was to create an application for people interested in tabletop to be able to play with friends or family that are
                       in different locations. Tabletop is a fun experience and no one should be left out just because they can’t attend an in
@@ -12,11 +26,6 @@
 
                     <p>I wanted to create an application that is easy to use, easy to access and has all of the information needed for whatever
                       ruleset is decided for the game.</p>
-
-                    <h3><strong>My Role</strong></h3>
-
-                    <p>For Venture.ng, I was the User Researcher, UX Designer, and UX Developer. I used Sketch to design my wireframes and used
-                      Invision to create the prototype.</p>
 
                     <h3><strong>User Research</strong></h3>
 
@@ -92,28 +101,18 @@
                       a technical demonstration. I used HTML, CSS and JQuery to put together the demo. Check it out
                       <a href="https://jessicawise.github.io/clickablePrototype/" target="_blank">here</a>.</p>
 
-                    <h3><strong>Future Features</strong></h3>
+                    <h3><strong>What I Would Add</strong></h3>
 
-                    <p><strong>Game Master Specific Game Board</strong>
-                        <br /> Game Masters run the game and create the world and as such they need to have access to different assets than
-                        players do.</p>
-
-                    <p><strong>Character Sheet Onboarding</strong>
-                        <br /> Character sheets are hard and most players aren’t good at traversing a ruleset’s player guides. A guided Character
-                        Sheet creation would chop off some time when creating a character.</p>
-
-                    <p><strong>Ruleset Based Data Library</strong>
-                        <br /> Players are bad at even obtaining player guide books. Not all information for each ruleset is avaliable online either. A centralized Data Library would give players without access to the books, the information they need.</p>
-
-                    <p><strong>Friends</strong>
-                        <br /> Not everyone has friends or habitually checks the looking for group reddit and these people also need a way to
+                    <p><ul><li>Game Master Specific Game Board. Game Masters run the game and create the world and as such they need to have access to different assets than
+                        players do.</li>
+                        <li>Character Sheet Onboarding.Character sheets are hard and most players aren’t good at traversing a ruleset’s player guides. A guided Character
+                        Sheet creation would chop off some time when creating a character.</li>
+                        <li>Ruleset Based Data Library. Players are bad at even obtaining player guide books. Not all information for each ruleset is avaliable online either. A centralized Data Library would give players without access to the books, the information they need.</li>
+                        <li>Friends. Not everyone has friends or habitually checks the looking for group reddit and these people also need a way to
                         play tabletop (even with strangers). The idea would be to create a board within the website for GM’s and Players to
-                        recruit each other for games</p>
-                    <br />
-                    <h4>Other Works</h4>
-                    <router-link to='/works/streetsmarts'>
-                        <img class="border-radius project-view" src="/img/StreetSmarts.png" />
-                    </router-link>
+                        recruit each other for games</li>
+                        </ul></p>
+              
                 </div>
             </div>
         </div>
