@@ -4,23 +4,29 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 align-left">
                     <h2><strong>Fleet Tracker Feature</strong></h2>
+                    [Final Design Images]
 
-                    <h3><strong>My Role</strong></h3>
+                    <h3><strong>The Basics</strong></h3>
+
+                    <strong>Role</strong>
+                    Researcher and UX Designer
+                    
+                    <strong>Tools</strong>
+                    Sketch and Invision
+                    
+                    <strong>Time Constraint</strong>
+                    2 weeks
+
+                    
+                     <h3><strong>The Overview</strong></h3>
 
                     <p><a href="https://www.streetsmarts.life/">StreetSmarts</a> is a web-based application which aids management of business
                     operations for people who rent their cars through online platforms like <a href="https://turo.com/">Turo</a>.</p>
 
-                    <p>I was brought onto the StreetSmarts team to aid in the effort of designing future features and the redesigning of the
-                      current platform. My first task as the UX Researcher and UX Designer for StreetSmarts was to design a Fleet Tracker. The
-                      base idea was that the tracker would allow users an easy way to see all of their cars and if they were available</p>
+                    <p>The Fleet Tracker would allow users an easy way to see all of their cars and if they were available</p>
 
                     <p>The StreetSmarts platform uses Material UI as their component library and as such, my designs needed to utilize the
                       components of Material UI as well.</p>
-
-                    <h3><strong>Time Constraint</strong></h3>
-
-                    <p>As this feature was heavily requested by the user base, my time constraint to complete the entire design process was
-                        <strong>2 weeks</strong>.</p>
 
                     <h3><strong>User Research</strong></h3>
 
@@ -83,22 +89,15 @@
                     <img class="mobile-size" src="/img/streetsmarts/Mobile.png" />
                     <img class="mobile-size" src="/img/streetsmarts/Mobile_Menu.png" />
 
-                    <h3><strong>Future Changes</strong></h3>
+                    <h3><strong>What I Would Change</strong></h3>
 
-                    <p>In the future I plan to revisit the Fleet Tracker and design the month view in a way that will allow the user to decide
-                      if they want to follow the original idea and be able to switch between the two views. This will require another set of
+                    <p><ul><li>Design the month view in a way that will allow the user to decide
+                      if they want to follow the original idea and be able to switch between the two views. This would require another set of
                       User Interviews to decide what information is the most important for such a calendar view so that we can cut down on
-                      information not needed. Doing this would help declutter the month view and make it a stronger design.</p>
+                      information not needed. Doing this would help declutter the month view and make it a stronger design.</li>
+                      <li>Redeisgn the way filters work in the tracker once grouping as a whole is implemented into the platform. The currently designed way is a round about way to force groups to be available.</li></ul></p>
 
-                    <p>Within the more options ellipses in the filters, the user is able to make a group and reogranize their filters. This is a
-                      bit of a round about way to force groups to be available and as such will need to be redesigned once grouping is implemented
-                       into the platform.</p>
-
-                    <br />
-                    <h4>Other Works</h4>
-                    <router-link to='/works/venture'>
-                        <img class="border-radius project-view" src="/img/ventureng.png" />
-                    </router-link>
+                   
                 </div>
             </div>
         </div>
