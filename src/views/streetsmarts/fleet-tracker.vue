@@ -4,17 +4,24 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 align-left">
                     <h2><strong>Fleet Tracker Feature</strong></h2>
-                    [Final Design Images]
+                    <img class="image-size" src="/img/streetsmarts/Fleet_Tracker_v3_Week.png" />
+                    <img class="mobile-size" src="/img/streetsmarts/Mobile.png" />
+                    <img class="mobile-size" src="/img/streetsmarts/Mobile_Menu.png" />
 
                     <h3><strong>The Basics</strong></h3>
 
                     <strong>Role</strong>
+                    <br />
                     Researcher and UX Designer
-                    
+                    <br />
+                    <br />
                     <strong>Tools</strong>
+                    <br />
                     Sketch and Invision
-                    
+                    <br />
+                    <br />
                     <strong>Time Constraint</strong>
+                    <br />
                     2 weeks
 
                     
@@ -52,22 +59,25 @@
                       the call.</p>
 
                     <h3><strong>Initial Wireframes</strong></h3>
-
-                    <p>Based on the user interviews; these were the inital wireframes. Since the users had no preference to a month calendar or a
-                      week calendar, I designed both to see how they'd look.</p>
-
                     <img class="image-size" src="/img/streetsmarts/Fleet_Tracker_v1_Month.png" />
                     <img class="image-size" src="/img/streetsmarts/Fleet_Tracker_v1_Week.png" />
+                    <br />
+                    <br />
+                    <p>Based on the user interviews; these were the inital wireframes. Since the users had no preference to a month calendar or a
+                      week calendar, I designed both to see how they'd look.</p>
+        
 
                     <h3><strong>Round 2 Wireframes</strong></h3>
-
+                    <img class="image-size" src="/img/streetsmarts/Fleet Tracker_v2_Month.png" />
+                    <img class="image-size" src="/img/streetsmarts/Fleet_Tracker_v2_Week.png" />
+                    <br />
+                    <br />
                     <p>I conducted some breif usability tests on the inital wireframes with the users I interviewed and found that they wanted
                       to be able to see their booked cars in some cases as well. They also had no preference to either calendar view either and
                       so I decided to keep both as there was positive feedback for both. With those thoughts in mind I designed the second
                       version of the wireframes.</p>
 
-                    <img class="image-size" src="/img/streetsmarts/Fleet Tracker_v2_Month.png" />
-                    <img class="image-size" src="/img/streetsmarts/Fleet_Tracker_v2_Week.png" />
+                    
 
                     <h3><strong>Usability Testing</strong></h3>
 
@@ -82,12 +92,14 @@
                       once, in the case of a super user. The decision was made to drop the month view and revisit it at a later date.</p>
 
                     <h3><strong>Final Wireframes</strong></h3>
-
-                    <p>After the decision was made to drop month view, I created the final wireframes for the desktop application and the mobile
-                       application.</p>
                     <img class="image-size" src="/img/streetsmarts/Fleet_Tracker_v3_Week.png" />
                     <img class="mobile-size" src="/img/streetsmarts/Mobile.png" />
                     <img class="mobile-size" src="/img/streetsmarts/Mobile_Menu.png" />
+                    <br />
+                    <br />
+                    <p>After the decision was made to drop month view, I created the final wireframes for the desktop application and the mobile
+                       application.</p>
+                    
 
                     <h3><strong>What I Would Change</strong></h3>
 

@@ -11,8 +11,8 @@ import Venture from './views/venture/index.vue'
 import Fidelity from './views/fidelity/index.vue'
 
 // @Jessica: Rename these to the project names
-import ProjectOne from './views/fidelity/project_1.vue'
-import ProjectTwo from './views/fidelity/project_2.vue'
+import ProjectOne from './views/fidelity/redesign.vue'
+import ProjectTwo from './views/fidelity/17a6.vue'
 
 import Fun from './views/fun/index.vue'
 

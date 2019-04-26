@@ -3,18 +3,23 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 align-left">
-                  [Final Design Images]
+                  <img class="image-size" src="/img/venture/HighExample/Game Board Page High.png" />
 
                     <h3><strong>The Basics</strong></h3>
 
                     <strong>Role</strong>
+                    <br />
                     Researcher, UX Designer and Developer
-                    
+                    <br />
+                    <br />
                     <strong>Tools</strong>
+                    <br />
                     Sketch and Invision
-                    
+                    <br />
+                    <br />
                     <strong>Time Constraint</strong>
-            
+                    <br />
+                    3 weeks
 
                     
                      <h3><strong>The Overview</strong></h3>

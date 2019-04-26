@@ -9,13 +9,13 @@
       <div class="row"  style='margin-top: 15px;'>
         <div class="col-md-6 col-md-offset-2">
           <div class='project'>
-            <router-link to='/works/fidelity/project-1' class='project-box' style="background: url('/img/IMAGE_NAME.png')"></router-link>
-            <span>Project 1</span>
+            <router-link to='/works/fidelity/project-1' class='project-box' style="background: url('/img/FidelityProject1.png')"></router-link>
+            <span>Compliance ReDesign</span>
           </div>
 
           <div class='project'>
-            <router-link to='/works/fidelity/project-2' class='project-box' style="background: url('/img/IMAGE_NAME.png')"></router-link>
-            <span>Project 2</span>
+            <router-link to='/works/fidelity/project-2' class='project-box' style="background: url('/img/FidelityProject2.png')"></router-link>
+            <span>17a6 Account Review</span>
           </div>
         </div>
         <div class="col-md-3" style="text-align:left; padding: 10px;">
