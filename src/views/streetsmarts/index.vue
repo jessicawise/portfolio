@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col-md-3" style="text-align:left; padding: 10px;">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          I worked at StreetSmarts part time and was the only UX Designer on the team. I worked closely with the Founders who were also the Developers and Customer Support individuals for the platform. My primary focus while working with StreetSmarts was to help improve the foundation of the platform by conducting user research on current features and redesigning them to be more user friendly. I also ensured that new features being worked on also followed the user friendly path.
         </div>
       </div>
     </div>
