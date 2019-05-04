@@ -13,6 +13,9 @@
       <router-link to='/works/venture'><img class="border-radius" src="/img/VentureIcon.svg" width="100%"/></router-link>
     </div>
 
+    <hr />
+
+    <router-view />
   </div>
 
 </template>

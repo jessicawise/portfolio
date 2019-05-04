@@ -11,14 +11,15 @@ import Venture from './views/venture/index.vue'
 import Fidelity from './views/fidelity/index.vue'
 
 // @Jessica: Rename these to the project names
-import ProjectOne from './views/fidelity/redesign.vue'
-import ProjectTwo from './views/fidelity/17a6.vue'
+import FidelityRedesign from './views/fidelity/redesign.vue'
+import Fidelity17a6 from './views/fidelity/17a6.vue'
 
 import Fun from './views/fun/index.vue'
 
 import Animations from './views/Animations.vue'
 import Drawings from './views/Drawings.vue'
 import RouterView from './views/RouterView.vue'
+import Route404 from './views/404.vue'
 
 Vue.use(Router)
 
@@ -42,12 +43,12 @@ export default new Router({
         {
           name: 'streetsmarts',
           path: 'streetsmarts',
-          component: RouterView,
+          component: StreetSmarts,
           children: [
             {
-              name: 'index',
+              name: 'ss-index',
               path: '',
-              component: StreetSmarts,
+              redirect: 'fleet-tracker'
             },
             {
               name: 'fleet_tracker',
@@ -74,22 +75,22 @@ export default new Router({
         {
           name: 'fidelity',
           path: 'fidelity',
-          component: RouterView,
+          component: Fidelity,
           children: [
             {
-              name: 'index',
+              name: 'f-index',
               path: '',
-              component: Fidelity,
+              redirect: 'redesign'
             },
             {
-              name: 'project_one',
-              path: 'project-1',
-              component: ProjectOne,
+              name: 'redesign',
+              path: 'redesign',
+              component: FidelityRedesign,
             },
             {
-              name: 'project_two',
-              path: 'project-2',
-              component: ProjectTwo,
+              name: '17a6',
+              path: '17a6',
+              component: Fidelity17a6,
             }
           ]
         }
@@ -116,6 +117,11 @@ export default new Router({
           component: Drawings
         }
       ]
+    },
+    {
+
+      path: '*',
+      component: Route404
     }
   ]
 })

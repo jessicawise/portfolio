@@ -86,4 +86,12 @@ export default {
     }
   }
 }
+
+hr {
+  border: 0;
+  width: 75%;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(97, 27, 82, 0), rgba(97, 27, 82, 0.75), rgba(97, 27, 82, 0));
+}
+
 </style>
