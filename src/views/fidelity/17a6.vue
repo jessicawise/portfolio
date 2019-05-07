@@ -43,7 +43,7 @@
                 <p>This flow only looked at the experience as a whole. It was later decided that a lot of the functionality requested would not be able to be done for a MVP release. Some functionality was also later decided not to be needed on certain pages and a lot of stuff ended up being moved around.</p>
               </div>
               <div class='col-md-7'>
-                [Basic User Flow Diagram]
+                <img class="image-size" src="/img/FidelityStuff/HoldingPage/Flow.png" />
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/HoldingPage/HoldingPageExample1.png" />
                 <img class="image-size" src="/img/FidelityStuff/HoldingPage/HoldingPageExample2.png" />
-                [Add missing third design version]
+                <img class="image-size" src="/img/FidelityStuff/HoldingPage/HoldingPageExample3Comment.png" />
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/HoldingPage/HoldingPageEditedReviewed.png" />
-                [Add inline editing wireframe]
+                <img class="image-size" src="/img/FidelityStuff/HoldingPage/HoldingPageEdit.png" />
               </div>
               <div class='col-md-5'>
                 <h3><strong>Final Designs</strong></h3>

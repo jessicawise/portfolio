@@ -9,7 +9,7 @@
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign2.png" />
-                <div>[Add missing wireframe showing side panel]</div>
+                <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign2_Sidebar2.png" />
               </div>
               <div class='col-md-5'>
                 <h3><strong>The Basics</strong></h3>
@@ -85,7 +85,7 @@
               </div>
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign1.png" />
-                <div>[Add missing version image here]</div>
+                <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign1.2.png" />
               </div>
             </div>
 
@@ -95,7 +95,7 @@
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign2Version1.png" />
-                <div>[ Add missing adding client wireframe]</div>
+                <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign2_CandidateNewCandidate.png" />
               </div>
               <div class='col-md-5'>
                 <h3><strong>Redesign Round 2</strong></h3>
@@ -133,7 +133,7 @@
               </div>
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign2.png" />
-                <div>[Add missing wireframe showing side panel]</div>
+                <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign2_Sidebar2.png" />
               </div>
             </div>
           </div>
