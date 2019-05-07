@@ -10,8 +10,6 @@
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/Fleet_Tracker_v3_Week.png" />
-                <img class="mobile-size" src="/img/streetsmarts/Mobile.png" />
-                <img class="mobile-size" src="/img/streetsmarts/Mobile_Menu.png" />
               </div>
               <div class='col-md-5'>
                 <h3><strong>The Basics</strong></h3>
@@ -28,7 +26,12 @@
                 <strong>Time Constraint</strong>
                 <br />
                 2 weeks
-                <h3><strong>The Overview</strong></h3>
+                
+
+              </div>
+              <div class='row'>
+                <div class='col-md-12'>
+              <h3><strong>The Overview</strong></h3>
                 <p><a href="https://www.streetsmarts.life/">StreetSmarts</a> is a web-based application which aids management of business
                   operations for people who rent their cars through online platforms like <a href="https://turo.com/">Turo</a>.
                 </p>
@@ -36,8 +39,8 @@
                 <p>The StreetSmarts platform uses Material UI as their component library and as such, my designs needed to utilize the
                   components of Material UI as well.
                 </p>
-
-              </div>
+                </div>
+                </div>
             </div>
 
           </div>
