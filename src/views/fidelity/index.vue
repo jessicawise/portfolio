@@ -1,6 +1,6 @@
 <template>
   <div id="fidelity">
-    <div class="container-fluid">
+    <div class="container-fluid" v-if='authenticated'>
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <router-link class='logo-icon' to='/works/fidelity'><img class="border-radius" src="/img/FidelityLogo.svg" width="100%"/></router-link>
@@ -25,16 +25,75 @@
       <hr />
       <router-view />
     </div>
+    <div v-else>
+      <img class="border-radius" src="/img/FidelityIcon.svg" width="200px"/>
+      <h3>This page is locked behind a password.</h3>
+      <div>
+        If you have the password to this page please enter it below. <br />
+        <p>
+          <small>You will only need to enter in the password once.</small>
+        </p>
+        <form style='width: 300px; display: inline-block;'>
+          <div class="form-group">
+            <div style='display: inline-block; text-align: left;'>
+              <input type="password" class="form-control pw-form" v-model='passwordInput' />
+              <small v-if='incorrectPw' id="emailHelp" class="form-text text-muted">Incorrect password.</small>
+            </div>
+            <button style='vertical-align: top;' class="btn btn-primary" v-on:click="submitPassword">Submit</button>
+          </div>
+        </form>
+
+        <hr />
+
+        if you would like to get the password, please contact me at: <br />
+        <div class='contact-icons'>
+          <a href="mailto:jessica.lee.wise@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+          <a href="tel:1-413-727-5977"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+    const HASH_CODE = 'ea2a4c7d6108caf08a820260ebbcc07a30260a2aeb80aad3e0bbaf1bfad352ef'
+
+    import CryptoJS from 'crypto-js'
+    import sha256 from 'crypto-js/sha256';
     import ScrollToNav from "@/mixins/ScrollToNav.vue"
     export default {
         name: "fidelity",
         mixins: [
             ScrollToNav
-        ]
+        ],
+        created() {
+          const storedToken = localStorage.getItem('token')
+          if (storedToken) {
+            const decrypted = CryptoJS.AES.decrypt(storedToken, HASH_CODE).toString();
+            if (decrypted === HASH_CODE) {
+              this.authenticated = true
+            }
+          }
+        },
+        data() {
+          return {
+            authenticated: false,
+            passwordInput: null,
+            incorrectPw: false
+          }
+        },
+        methods: {
+          submitPassword() {
+            const encryptedPw = sha256(this.passwordInput)
+
+            if (encryptedPw.toString() == HASH_CODE) {
+              this.authenticated = true
+              localStorage.setItem('token', CryptoJS.AES.encrypt(encryptedPw, HASH_CODE))
+            } else {
+              this.incorrectPw = true
+            }
+          }
+        }
     }
 </script>
 
@@ -43,6 +102,11 @@
     .logo-icon {
       display: inline-block;
       max-width: 300px;
+    }
+
+    .pw-form {
+      width: 200px;
+      margin-right: 10px;
     }
 
     .project {
