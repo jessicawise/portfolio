@@ -4,14 +4,11 @@
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Automated Messaging Organization Exploration</strong></h2>
-
           <div id='ss-m-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('ss-m-head') }">
-
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/automatedmessaging/Default.png" />
                 <img class="image-size" src="/img/streetsmarts/automatedmessaging/Default_Message_Enabled.png" />
-
               </div>
               <div class='col-md-5'>
                 <h3><strong>The Basics</strong></h3>
@@ -32,16 +29,15 @@
                   this was no problem. However, new users were joining and quitting very shortly thereafter because they
                   could not grasp how to work in the platform.
                 </p>
-
               </div>
             </div>
             <div class='row'>
               <div class='col-md-12'>
                 <p>Rather than continue to stack features on this foundation, it was decided that I should start exploring
-                    ways to "clean up" some of the already existing features and make them more new user friendly. With the
-                    exploration, there are not many iterations of designs because I was only taking what was there and shifting
-                    it around or trying out new ways of displaying information. Many of the things explored would not be
-                    tested until there was time to implement them or until they would be rolled out.
+                  ways to "clean up" some of the already existing features and make them more new user friendly. With the
+                  exploration, there are not many iterations of designs because I was only taking what was there and shifting
+                  it around or trying out new ways of displaying information. Many of the things explored would not be
+                  tested until there was time to implement them or until they would be rolled out.
                 </p>
                 <p>For one exploration I was asked to try my hand at the Automated Messaging system. The system gave users
                   a way to set up messages that would automatically be sent to their renters after something happened. Some examples
@@ -50,9 +46,7 @@
               </div>
             </div>
           </div>
-
           <div id='ss-m-1' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1058 || isApplied('ss-m-1') }">
-
             <div class="row">
               <div class='col-md-5'>
                 <h3><strong>How It Started..</strong></h3>
@@ -65,27 +59,25 @@
                   with simple messages. After looking at all of the options then the user could enable the message at the
                   bottom of the template.
                 </p>
-
               </div>
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/automatedmessaging/Automated_Messaging_Step_3.png" />
                 <img class="image-size" src="/img/streetsmarts/automatedmessaging/Automated_Messaging_Step_3.png" />
               </div>
-              <div class='row'>
+
+            </div>
+            <div class='row'>
                 <div class='col-md-12'>
                   <p>Creating a new message would display the same template as above but none of the fields would be filled
-                  in. This was actually where StreetSmarts would lose most of its new users. Automated Messaging is a huge
-                  time saver for users who had a lot of cars that they managed. However, the time savings is very small when
-                  they have to go in and try to set up the messaging in the system above. Many decided to use other products
-                  or just continuing to copy and paste messages from a word document.
-                </p>
+                    in. This was actually where StreetSmarts would lose most of its new users. Automated Messaging is a huge
+                    time saver for users who had a lot of cars that they managed. However, the time savings is very small when
+                    they have to go in and try to set up the messaging in the system above. Many decided to use other products
+                    or just continuing to copy and paste messages from a word document.
+                  </p>
                 </div>
-                </div>
-            </div>
+              </div>
           </div>
-
           <div id='ss-m-sug' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1672 || isApplied('ss-m-sug') }">
-
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/automatedmessaging/Default.png" />
@@ -110,9 +102,7 @@
               </div>
             </div>
           </div>
-
           <div id='ss-m-final' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2577 || isApplied('ss-m-final') }">
-
             <h3><strong>What I Would Change</strong></h3>
             <p>
             <ul>
@@ -158,17 +148,14 @@
   }
   }
 </script>
-
 <style lang="scss">
-    #streetsmarts {
-
-        .opac-0 m-b-25 {
-            opacity: 0;
-
-            &.animated {
-                opacity: 1;
-                transition: opacity .5s;
-            }
-        }
+  #streetsmarts {
+    .opac-0 m-b-25 {
+      opacity: 0;
+      &.animated {
+        opacity: 1;
+        transition: opacity .5s;
+      }
     }
+  }
 </style>
