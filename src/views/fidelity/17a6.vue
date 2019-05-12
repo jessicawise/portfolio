@@ -2,10 +2,10 @@
   <div id="fidelity">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 align-left">
+        <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>17a6 Project - Admin Account Review</strong></h2>
 
-          <div id='fi-17-head' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('fi-17-head') }">
+          <div id='fi-17-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('fi-17-head') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -26,7 +26,7 @@
                 <strong>Time Constraint</strong>
                 <br />
                 2 weeks
-                
+
               </div>
               <div class='row'>
                 <div class='col-md-12'>
@@ -40,7 +40,7 @@
 
           </div>
 
-          <div id='fi-17-flow' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1075 || isApplied('fi-17-flow') }">
+          <div id='fi-17-flow' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1075 || isApplied('fi-17-flow') }">
 
             <div class="row">
               <div class='col-md-5'>
@@ -54,7 +54,7 @@
             </div>
           </div>
 
-          <div id='fi-17-1' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1461 || isApplied('fi-17-1') }">
+          <div id='fi-17-1' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1461 || isApplied('fi-17-1') }">
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/HoldingPage/HoldingPage1.png" />
@@ -69,7 +69,7 @@
             </div>
           </div>
 
-          <div id='fi-17-2' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2201 || isApplied('fi-17-2') }">
+          <div id='fi-17-2' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2201 || isApplied('fi-17-2') }">
 
             <div class="row">
               <div class='col-md-5'>
@@ -91,7 +91,7 @@
                 </div>
           </div>
 
-          <div id='fi-17-final' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 3079 || isApplied('fi-17-final') }">
+          <div id='fi-17-final' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 3079 || isApplied('fi-17-final') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -103,7 +103,7 @@
                 <p>An additional requirement was added on at this point. The business stated that there needed to be an action/audit history showing what steps someone had taken on an account. This requirement would be reconsidered later.</p>
                 <p>I worked with the development team to add in functionality without the need for icons. We were able to decide that the editing of a line item could be done by double clicking on one of the columns within the line item. This would allow the user to edit the information they had the permissions to change.</p>
                 <p>At the end of the two weeks, unfortunately, the project had to be put on hold because requirements were changing too often. </p>
-                
+
               </div>
               <div class='row'>
                 <div class='col-md-12'>
@@ -155,7 +155,7 @@
 <style lang="scss">
     #fidelity {
 
-        .opac-0 {
+        .opac-0 m-b-25 {
             opacity: 0;
 
             &.animated {

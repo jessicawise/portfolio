@@ -2,10 +2,10 @@
   <div id="streetsmarts">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 align-left">
+        <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Fleet Tracker Feature</strong></h2>
 
-          <div id='ss-ft-head' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('ss-ft-head') }">
+          <div id='ss-ft-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('ss-ft-head') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -26,25 +26,22 @@
                 <strong>Time Constraint</strong>
                 <br />
                 2 weeks
-                
-
               </div>
-              <div class='row'>
-                <div class='col-md-12'>
+            </div>
+
+            <div>
               <h3><strong>The Overview</strong></h3>
-                <p><a href="https://www.streetsmarts.life/">StreetSmarts</a> is a web-based application which aids management of business
-                  operations for people who rent their cars through online platforms like <a href="https://turo.com/">Turo</a>.
-                </p>
-                <p>The Fleet Tracker would allow users an easy way to see all of their cars and if they were available</p>
-                <p>The StreetSmarts platform uses Material UI as their component library and as such, my designs needed to utilize the
-                  components of Material UI as well.
-                </p>
-                </div>
-                </div>
+              <p><a href="https://www.streetsmarts.life/">StreetSmarts</a> is a web-based application which aids management of business
+                operations for people who rent their cars through online platforms like <a href="https://turo.com/">Turo</a>.
+              </p>
+              <p>The Fleet Tracker would allow users an easy way to see all of their cars and if they were available</p>
+              <p>The StreetSmarts platform uses Material UI as their component library and as such, my designs needed to utilize the
+                components of Material UI as well.
+              </p>
             </div>
 
           </div>
-          <div id='ss-ft-research' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1020 || isApplied('ss-ft-research') }">
+          <div id='ss-ft-research' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1020 || isApplied('ss-ft-research') }">
 
             <h3><strong>User Research</strong></h3>
             <p>For user research, I interviewed a super user of the platform as well as a mid level user. Since two interviews would not
@@ -70,7 +67,7 @@
             </p>
           </div>
 
-          <div id='ss-ft-1' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1458 || isApplied('ss-ft-1') }">
+          <div id='ss-ft-1' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1458 || isApplied('ss-ft-1') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -86,7 +83,7 @@
             </div>
           </div>
 
-          <div id='ss-ft-2' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2148 || isApplied('ss-ft-2') }">
+          <div id='ss-ft-2' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2148 || isApplied('ss-ft-2') }">
 
             <div class="row">
               <div class='col-md-5'>
@@ -105,7 +102,7 @@
             </div>
           </div>
 
-          <div id='ss-ft-test' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2817 || isApplied('ss-ft-test') }">
+          <div id='ss-ft-test' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2817 || isApplied('ss-ft-test') }">
 
             <h3><strong>Usability Testing</strong></h3>
             <p>After presenting the wireframes to the executives, we decided that the second design was exactly what we were looking for.
@@ -119,7 +116,7 @@
               once, in the case of a super user. The decision was made to drop the month view and revisit it at a later date.
             </p>
           </div>
-          <div id='ss-ft-final' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 3090 || isApplied('ss-ft-final') }">
+          <div id='ss-ft-final' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 3090 || isApplied('ss-ft-final') }">
 
             <div class="row">
               <div class='col-md-5'>
@@ -175,7 +172,7 @@
 <style lang="scss">
     #streetsmarts {
 
-        .opac-0 {
+        .opac-0 m-b-25 {
             opacity: 0;
 
             &.animated {

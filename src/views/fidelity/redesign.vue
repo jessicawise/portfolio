@@ -2,9 +2,9 @@
   <div id="fidelity">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 align-left">
+        <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Compliance Website Redesign - Admin View</strong></h2>
-          <div id='fi-r-head' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('fi-r-head') }">
+          <div id='fi-r-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('fi-r-head') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -29,21 +29,22 @@
                 <h3><strong>The Overview</strong></h3>
                 <p>The compliance website is an internal website for Fidelity employees to disclose different types of information to ensure they are compliant with various laws. These disclosures range from if an employee worked another job at another company and what that work entailed to what an employee donated to a political campaign.</p>
                 <p>All disclosures were sent to the employee's manager for a preliminary approval and then sent further to the compliance admin office. The job of the admins was to see who the employee was and wether their disclosure was okay or not. The entire process was originally completed with paper forms. The compliance website was created first to get rid of the forms and then second to make the process easier for both the employees and the admins.</p>
+                <p>For this project, I started with the political contribution flow. Out of all of the disclosures, it was the most complicated workflow for the admins. It was also the disclosure that was the most "done". The definition of done was that it was live for both employees and admins but only checked off the barest minimum of requirements.</p>
+
               </div>
               <div class='row'>
                 <div class='col-md-12'>
-                    <p>For this project, I started with the political contribution flow. Out of all of the disclosures, it was the most complicated workflow for the admins. It was also the disclosure that was the most "done". The definition of done was that it was live for both employees and admins but only checked off the barest minimum of requirements.</p>
                     </div>
                 </div>
             </div>
           </div>
-   
-          <div id='fi-r-in-begin' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1355 || isApplied('fi-r-in-begin') }">
+
+          <div id='fi-r-in-begin' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1355 || isApplied('fi-r-in-begin') }">
             <div class="row">
               <div class='col-md-5'>
                 <h3><strong>In the Beginning...</strong></h3>
                 <br />
-                
+
                 <p>However, only the first part was done well. The employee side was great and everyone was happy they didn't have to try to fill out forms and keep track of them as they moved through the system.</p>
                 <p>Admins were not feeling the same. Digitizing forms for employees was the easiest step. Displaying the employee input in an organized fashion for admins was not. The forms, even when digitized, could potentially contain up to hundreds of input points that an admin had to review. Depending on the disclosure, the admin then had to complete other steps like complete a checklist or check an employee's previous disclosures.</p>
 
@@ -59,7 +60,7 @@
             </div>
           </div>
 
-          <div id='fi-r-rehash' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2015 || isApplied('fi-r-rehash') }">
+          <div id='fi-r-rehash' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2015 || isApplied('fi-r-rehash') }">
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/Redesign/ReHash1.png" />
@@ -70,15 +71,15 @@
               <div class='col-md-5'>
                 <h3><strong>The Rehash Route</strong></h3>
                 <br />
-                
+
                 <p>So the first step was a rehash of the current design. Could the information be laid out in a way in the current design that would help the admins out more? I also had other requirements from the business to follow as well: limit page scrolling and don't cut out any data points.</p>
                 <p>The rehashed designs didn't go over well when presented to the admins. They had wanted something different than what they had now. Sure, the organization was better but the workflow was still a mess and that, at the core, was the real problem.</p>
               </div>
             </div>
 
           </div>
-       
-          <div id='fi-r-section-1' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2977 || isApplied('fi-r-section-1') }">
+
+          <div id='fi-r-section-1' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2977 || isApplied('fi-r-section-1') }">
 
             <div class="row">
               <div class='col-md-5'>
@@ -103,9 +104,9 @@
             </div>
 
           </div>
-         
-        
-          <div id='fi-r-section-2' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 3812 || isApplied('fi-r-section-2') }">
+
+
+          <div id='fi-r-section-2' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 4418 || isApplied('fi-r-section-2') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -120,8 +121,8 @@
             </div>
 
           </div>
-       
-          <div id='fi-r-final' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 4478 || isApplied('fi-r-final') }">
+
+          <div id='fi-r-final' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 5566 || isApplied('fi-r-final') }">
 
             <div class="row">
               <div class='col-md-5'>
@@ -130,7 +131,7 @@
                 <p>Not a whole lot changed at this point. There was some tightening up of colors as the bright green didn't mesh well with the white text. The button issue was solved mostly by switching to ghost button styling.</p>
                 <p>A lot of getting to the final designs was working with the development team and making sure they could make the side panel and the card as they were designed. We came to the agreement that we could do inline editing to prevent having to make oddly shaped cards or opening the flow in another window. We did learn that the adding of a candidate would never happen from this admin screen and were able to remove that functionality.</p>
                 <p>The last thing that changed was that we made it so the admin could make their disposition decision at any point during scrolling by using a sticky footer. This wasn't something that cmae up in our user feedback but it was something they ended up liking more than we expected.</p>
-               
+
               </div>
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/Redesign/ReDesign2.png" />

@@ -2,10 +2,10 @@
   <div id="streetsmarts">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 align-left">
+        <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Automated Messaging Organization Exploration</strong></h2>
 
-          <div id='ss-m-head' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('ss-m-head') }">
+          <div id='ss-m-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('ss-m-head') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -25,17 +25,18 @@
                 Sketch
                 <br />
                 <br />
-                
-              </div>
-              <div class='row'>
-                <div class='col-md-12'>
-                  <h3><strong>The Overview</strong></h3>
+                <h3><strong>The Overview</strong></h3>
                 <p>After the Fleet Tracker project the problem was that the foundation of the platform was not enitrely
                   sturdy. A lot of the platform was created without a UX Designer involved and so it was weighed down
                   by things essentially stacked on top of each other. For users who used the platform since the beginning,
                   this was no problem. However, new users were joining and quitting very shortly thereafter because they
                   could not grasp how to work in the platform.
                 </p>
+
+              </div>
+            </div>
+            <div class='row'>
+              <div class='col-md-12'>
                 <p>Rather than continue to stack features on this foundation, it was decided that I should start exploring
                     ways to "clean up" some of the already existing features and make them more new user friendly. With the
                     exploration, there are not many iterations of designs because I was only taking what was there and shifting
@@ -46,12 +47,11 @@
                   a way to set up messages that would automatically be sent to their renters after something happened. Some examples
                   would be a confirmation message after a car was rented or a thank you message after the rental was returned.
                 </p>
-                </div>
-                </div>
+              </div>
             </div>
           </div>
 
-          <div id='ss-m-1' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1358 || isApplied('ss-m-1') }">
+          <div id='ss-m-1' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1058 || isApplied('ss-m-1') }">
 
             <div class="row">
               <div class='col-md-5'>
@@ -65,7 +65,7 @@
                   with simple messages. After looking at all of the options then the user could enable the message at the
                   bottom of the template.
                 </p>
-                
+
               </div>
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/automatedmessaging/Automated_Messaging_Step_3.png" />
@@ -84,7 +84,7 @@
             </div>
           </div>
 
-          <div id='ss-m-sug' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2003 || isApplied('ss-m-sug') }">
+          <div id='ss-m-sug' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1672 || isApplied('ss-m-sug') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -111,7 +111,7 @@
             </div>
           </div>
 
-          <div id='ss-m-final' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2715 || isApplied('ss-m-final') }">
+          <div id='ss-m-final' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2577 || isApplied('ss-m-final') }">
 
             <h3><strong>What I Would Change</strong></h3>
             <p>
@@ -162,7 +162,7 @@
 <style lang="scss">
     #streetsmarts {
 
-        .opac-0 {
+        .opac-0 m-b-25 {
             opacity: 0;
 
             &.animated {

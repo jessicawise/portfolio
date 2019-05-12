@@ -2,10 +2,10 @@
   <div id="venture">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 align-left">
+        <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Venture.ng</strong></h2>
 
-          <div id='v-head' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('v-head') }">
+          <div id='v-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('v-head') }">
 
             <div class="row">
               <div class='col-md-7'>
@@ -40,7 +40,7 @@
             </p>
           </div>
 
-          <div id='v-user' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 795 || isApplied('v-user') }">
+          <div id='v-user' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 795 || isApplied('v-user') }">
             <h3><strong>User Research</strong></h3>
             <p>For my user research, I conducted several in person interviews and put out a survey on a tabletop reddit.</p>
             <p>I found that there are a lot of people already playing virtual tabletop games and are not at all adverse to not having a
@@ -57,28 +57,28 @@
             <p>The main problem comes down to: How can a complex tabletop system be made easy to use for both players and game masters?</p>
           </div>
 
-          <div id='v-1' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1141 || isApplied('v-1') }">
+          <div id='v-1' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1141 || isApplied('v-1') }">
             <h3><strong>Competetive Analysis</strong></h3>
             <img src="/img/venture/CompetetiveAnalysis.png" id="analysis" />
           </div>
-          <div id='v-2' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1623 || isApplied('v-2') }">
+          <div id='v-2' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1623 || isApplied('v-2') }">
             <h3><strong>Affinity Map</strong></h3>
             <img src="/img/venture/affinitygraph.png" id="affinity" />
           </div>
 
-          <div id='v-3' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2189 || isApplied('v-3') }">
+          <div id='v-3' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2189 || isApplied('v-3') }">
             <h3><strong>Storyboard</strong></h3>
             <img class="image-size" src="/img/venture/Storyboard.png" />
           </div>
 
-          <div id='v-4' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2710 || isApplied('v-4') }">
+          <div id='v-4' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2710 || isApplied('v-4') }">
             <h3><strong>Wireframes Start to Finish</strong></h3>
             <img class="image-size" src="/img/venture/HighExample/PaperPrototype3.png" />
             <img class="image-size" src="/img/venture/HighExample/Game Board Page.png" />
             <img class="image-size" src="/img/venture/HighExample/Game Board Page High.png" />
           </div>
 
-          <div id='v-5' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 4894 || isApplied('v-5') }">
+          <div id='v-5' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 4894 || isApplied('v-5') }">
 
             <h3><strong>User Testing</strong></h3>
             <p>The things I thought were great, were not! But that was completely perfect. The feedback was englightening and made me
@@ -107,7 +107,7 @@
             </p>
           </div>
 
-          <div id='v-6' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 5362 || isApplied('v-6') }">
+          <div id='v-6' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 5362 || isApplied('v-6') }">
             <h3><strong>Invision Prototype</strong></h3>
             <a href="https://projects.invisionapp.com/share/4GGQHVG2BK7#/screens/289856614_Home_Page" target="_blank">
             <img src="/img/invisionapp.png" id="invision" />
@@ -120,7 +120,7 @@
             </p>
           </div>
 
-          <div id='v-final' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 5607 || isApplied('v-final') }">
+          <div id='v-final' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 5607 || isApplied('v-final') }">
             <h3><strong>What I Would Add</strong></h3>
             <p>
             <ul>
@@ -167,7 +167,7 @@
 <style lang="scss">
     #streetsmarts {
 
-        .opac-0 {
+        .opac-0 m-b-25 {
             opacity: 0;
 
             &.animated {

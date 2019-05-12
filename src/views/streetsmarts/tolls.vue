@@ -2,11 +2,9 @@
   <div id="streetsmarts">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 align-left">
+        <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Toll Page Redesign Exploration</strong></h2>
-
-          <div id='ss-t-head' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 420 || isApplied('ss-t-head') }">
-
+          <div id='ss-t-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 420 || isApplied('ss-t-head') }">
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/Tolls/quick-deploy.png" />
@@ -30,41 +28,30 @@
                   this was no problem. However, new users were joining and quitting very shortly thereafter because they
                   could not grasp how to work in the platform.
                 </p>
-
+                <p>Rather than continue to stack features on this foundation, it was decided that I should start exploring
+                  ways to "clean up" some of the already existing features and make them more new user friendly. With the
+                  exploration, there are not many iterations of designs because I was only taking what was there and shifting
+                  it around or trying out new ways of displaying information. Many of the things explored would not be
+                  tested until there was time to implement them or until they would be rolled out.
+                </p>
               </div>
-
-              <div class='row'>
-                <div class='col-md-12'>
-                  <p>Rather than continue to stack features on this foundation, it was decided that I should start exploring
-                    ways to "clean up" some of the already existing features and make them more new user friendly. With the
-                    exploration, there are not many iterations of designs because I was only taking what was there and shifting
-                    it around or trying out new ways of displaying information. Many of the things explored would not be
-                    tested until there was time to implement them or until they would be rolled out.
-                  </p>
-                <p>Along with exploring some organization changes with Automated Messaging I was asked to try my hand at redesigning
-                    the tolls page. The redesign would be coming with a new tolls incentive that would allow new users to use
-                    StreetSmarts for tolls only. This would give some hesitant users a peek into what StreetSmarts could do
-                    without fully committing to it right away. Originally, the tolls page was just a list of tolls that renters
-                    would go through and then the user would either pay themselves or add to the bill of the renter. The list
-                    didn't say if the toll had been processed or if it couldn't be matched to a reservation or anything.
-                  </p>
-                  <p>We wanted to automatically assign
-                    tolls to a reservation but we also wanted to allow users to cancel that toll if they didn't want to pass it on
-                    to their renter. Overall, the categorization was the most important for this exploration.
-                  </p>
-                </div>
-              </div>
-              
             </div>
-
+            <p>Along with exploring some organization changes with Automated Messaging I was asked to try my hand at redesigning
+              the tolls page. The redesign would be coming with a new tolls incentive that would allow new users to use
+              StreetSmarts for tolls only. This would give some hesitant users a peek into what StreetSmarts could do
+              without fully committing to it right away. Originally, the tolls page was just a list of tolls that renters
+              would go through and then the user would either pay themselves or add to the bill of the renter. The list
+              didn't say if the toll had been processed or if it couldn't be matched to a reservation or anything.
+            </p>
+            <p>We wanted to automatically assign
+              tolls to a reservation but we also wanted to allow users to cancel that toll if they didn't want to pass it on
+              to their renter. Overall, the categorization was the most important for this exploration.
+            </p>
           </div>
-
-          <div id='ss-t-sug' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 1395 || isApplied('ss-t-sug') }">
-
+          <div id='ss-t-sug' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 1395 || isApplied('ss-t-sug') }">
             <div class="row">
               <div class='col-md-5'>
                 <h3><strong>Suggested Changes</strong></h3>
-
                 <p>The major categories a toll could fall under would be Processed, Pending and Unassigned. In each
                   category a user would be able to search the list for the name of a car, the reservation or the amount.
                   This would allow the user the ability to quickly look at any of the tolls in that category and then move on.
@@ -77,16 +64,13 @@
                   wanted to execute the toll, which would pass the charge onto the renter, or cancel the toll, which would allow them
                   to pay the toll themselves. Once either option was selected it would move to Processed.
                 </p>
-
               </div>
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/Tolls/quick-deploy.png" />
                 <img class="image-size" src="/img/streetsmarts/Tolls/PendingTolls_ExecuteCancel.png" />
                 <img class="image-size" src="/img/streetsmarts/Tolls/UnassignedTolls_Assignable.png" />
               </div>
-              
             </div>
-
             <div class='row'>
               <div class='col-md-12'>
                 <p>The Unassigned category was for the off chances that the platform could not match the toll to a reservation. One
@@ -104,10 +88,8 @@
                 </p>
               </div>
             </div>
-
           </div>
-
-          <div id='ss-t-final' class="opac-0" :class="{ 'animated fadeInUp': scrollY > 2296 || isApplied('ss-t-final') }">
+          <div id='ss-t-final' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 2296 || isApplied('ss-t-final') }">
             <h3><strong>What I Would Change</strong></h3>
             <p>
             <ul>
@@ -154,17 +136,14 @@
   }
   }
 </script>
-
 <style lang="scss">
-    #streetsmarts {
-
-        .opac-0 {
-            opacity: 0;
-
-            &.animated {
-                opacity: 1;
-                transition: opacity .5s;
-            }
-        }
+  #streetsmarts {
+    .opac-0 m-b-25 {
+      opacity: 0;
+      &.animated {
+        opacity: 1;
+        transition: opacity .5s;
+      }
     }
+  }
 </style>
