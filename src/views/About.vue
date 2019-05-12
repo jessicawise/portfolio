@@ -5,7 +5,7 @@
         <div class="col-md-6 col-md-offset-3">
           <img src="/img/portrait.jpg" id="portrait" />
           <div>
-          <a href="https://jessicawise.github.io/portfolio_old/Jessica_Resume.pdf" target="_blank"><img src="/img/resumeicon.png" id="resume" /></a>
+          <a href="/JessicaResume.pdf" target="_blank"><img src="/img/resumeicon.png" id="resume" /></a>
           <a href="mailto:jessica.lee.wise@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
           <a href="tel:1-413-727-5977"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
           <a href="https://www.linkedin.com/in/jwiseanimates/" target="_blank"><img src="/img/linkedin.png" id="linkedin" /></a>
