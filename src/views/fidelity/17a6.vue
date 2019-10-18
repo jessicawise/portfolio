@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>17a6 Project - Admin Account Review</strong></h2>
-          <div id='fi-17-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('fi-17-head') }">
+          <div id='fi-17-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': true }">
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/FidelityStuff/HoldingPage/HoldingPageEditedReviewed.png" />

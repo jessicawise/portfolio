@@ -5,7 +5,7 @@
         <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Fleet Tracker Feature</strong></h2>
 
-          <div id='ss-ft-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('ss-ft-head') }">
+          <div id='ss-ft-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': true }">
 
             <div class="row">
               <div class='col-md-7'>

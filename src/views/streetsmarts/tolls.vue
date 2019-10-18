@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Toll Page Redesign Exploration</strong></h2>
-          <div id='ss-t-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 420 || isApplied('ss-t-head') }">
+          <div id='ss-t-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': true }">
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/Tolls/quick-deploy.png" />

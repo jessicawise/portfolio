@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3 align-left">
           <h2><strong>Automated Messaging Organization Exploration</strong></h2>
-          <div id='ss-m-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': scrollY > 495 || isApplied('ss-m-head') }">
+          <div id='ss-m-head' class="opac-0 m-b-25" :class="{ 'animated fadeInUp': true }">
             <div class="row">
               <div class='col-md-7'>
                 <img class="image-size" src="/img/streetsmarts/automatedmessaging/Default.png" />
